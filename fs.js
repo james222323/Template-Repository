@@ -26,7 +26,7 @@
             link.rel = "icon";
             link.href = iconUrl;
 
-            iframe.src = "http://127.0.0.1:5500/sm.html";
+            iframe.src = "https://fs9a.sumibi.org/";
             iframe.setAttribute("allowfullscreen", "true");
 
             iframeStyle.position = "fixed";
@@ -54,7 +54,7 @@
             backButton.style.transition = "background-color 0.3s ease, color 0.3s ease"; // CSS transition property
 
             backButton.addEventListener("click", function () {
-                iframe.src = "http://127.0.0.1:5500/sm.html";
+                iframe.src = "https://fs9a.sumibi.org/";
             });
 
             // Hover effect
