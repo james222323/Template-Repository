@@ -54,7 +54,7 @@
             backButton.style.transition = "background-color 0.3s ease, color 0.3s ease"; // CSS transition property
 
             backButton.addEventListener("click", function () {
-                iframe.src = "https://fs9a.sumibi.org/";
+                iframe.src = "https://fs9a.sumibi.org/sm.html";
             });
 
             // Hover effect
