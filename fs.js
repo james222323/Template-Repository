@@ -42,7 +42,7 @@
             link.rel = "icon";
             link.href = iconUrl;
 
-            iframe.src = "https://fs9a.sumibi.org/";
+            iframe.src = "https://fusion7.pages.dev/";
             iframe.setAttribute("allowfullscreen", "true");
 
             iframeStyle.position = "fixed";
@@ -70,7 +70,7 @@
             backButton.style.transition = "background-color 0.3s ease, color 0.3s ease"; // CSS transition property
 
             backButton.addEventListener("click", function () {
-                iframe.src = "https://fusion.sumibi.org/web/games.html";
+                iframe.src = "https://fusion7.pages.dev/";
             });
 
             // Hover effect
